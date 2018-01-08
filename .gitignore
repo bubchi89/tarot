@@ -1,0 +1,8 @@
+.gradle/
+
+tarot.iml
+tarot.ipr
+tarot.iws
+
+generated_src/
+out/

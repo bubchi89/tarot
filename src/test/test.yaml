@@ -1,0 +1,31 @@
+Configuration:
+  name: test
+
+  Appenders:
+    Console:
+      name: stdout
+      PatternLayout:
+        Pattern: "%m%n"
+
+  Loggers:
+    Root:
+      level: debug
+      AppenderRef:
+        ref: stdout
+#    Logger:
+#      -
+#        id: org.apache.logging.log4j.test1
+#        level: debug
+#        additivity: false
+#        ThreadContextMapFilter:
+#          KeyValuePair:
+#            key: test
+#            value: 123
+#        AppenderRef:
+#          ref: stdout
+#      -
+#        id: org.apache.logging.log4j.test2
+#        level: debug
+#        additivity: false
+#        AppenderRef:
+#          ref: File
